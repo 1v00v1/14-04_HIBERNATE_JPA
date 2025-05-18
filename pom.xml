@@ -5,20 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>14-04_HIBERNATE_JPA</artifactId>
+    <artifactId>HibernateJPAPrimjer</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>22</maven.compiler.source>
-        <maven.compiler.target>22</maven.compiler.target>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <!--    Import CTRL + SHIFT + O -->
     <dependencies>
-
         <dependency>
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
-            <version>3.1.0</version>
+            <version>3.2.0-M2</version>
         </dependency>
         <dependency>
             <groupId>org.hibernate.orm</groupId>
@@ -30,8 +30,6 @@
             <artifactId>h2</artifactId>
             <version>2.3.232</version>
         </dependency>
-
-
     </dependencies>
 
 </project>
